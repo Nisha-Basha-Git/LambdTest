@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="browser" Value="Chrome"/>
+    <Parameter name="LamdaTestURL" value="https://www.lambdatest.com/automation-demos/" />
+    <Parameter name="LamdaURL" value="https://www.lambdatest.com/selenium-automation" />
+    <Parameter name="UserName" Value="lambda"/>
+    <Parameter name="Password" Value="lambda123"/>
+    <Parameter name="email" Value="nishabasha890@gmail.com"/>
+  </TestRunParameters>
+  <VSTest>
+    <Parallelize>
+      <Workers>2</Workers>
+      <Scope>MethodLevel</Scope>
+    </Parallelize>
+  </VSTest>
+</RunSettings>
